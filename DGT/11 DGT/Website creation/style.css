@@ -1,0 +1,483 @@
+/* style.css */
+
+/* most imporant, it holds the overall style of the website*/
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    background-color: black;
+}
+main {
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 50px;
+}
+header{
+    background-color: hsl(0, 0%, 22%);
+    text-align: center;
+    padding: 25px;
+
+} 
+
+
+/*For the structure of some paragrphs*/
+aside{
+    width: 30%;
+    float: left;
+    padding: 10px;
+    background-color: #292929;
+    border-radius: 30px;
+    border: solid 5px #555;
+    
+}
+section{
+    width: 30%;
+    float: left;
+    padding: 10px;
+    background-color: #292929;
+     border-radius: 30px;
+    border: solid 5px #555;
+    margin-left: 5%;
+    margin-right:5%;
+    margin-bottom: 50px;
+}
+article{
+    width: 30%;
+    float: left;
+    padding: 10px;
+    background-color: #292929;
+     border-radius: 30px;
+    border: solid 5px #555;
+}
+footer{
+    display: block;
+    clear: both;
+    background-color: hsl(0, 0%, 18%);
+    text-align: center;
+    padding: 25px;
+}
+
+
+
+/*so the text moves with the screen size*/
+@media screen and (max-width:600px){
+    aside, section, article{
+        width: 100%;}
+}
+
+
+
+/* for the "trending" section of songs */
+.heading1{
+    color: white;
+    font-family: Arial, sans-serif; font-weight: bold;
+    margin: 50px;
+    font-size: 20px
+      
+}
+
+.song-button {
+
+  font-family: Arial;
+  color: rgba(226, 226, 226, 0.56);
+    font-weight: bold;
+  text-decoration: none;
+  float: left; 
+    margin-right: 40px;
+    background-color: rgba(129, 129, 129, 0.83);
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    margin-left: 150px
+    
+}
+
+.bannerb-top img{
+   width: 700px; 
+    height: auto;
+    margin: 15px;
+    padding: 0;
+    border: 5px solid #555;
+     border-radius: 20px;
+    
+}
+
+.song img{
+    max-height: 169px;
+    max-width: 170px;
+    border-radius: 20%;
+    border: 5px solid #555;
+    
+}
+
+.homes-text{
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+
+
+/* for the lyrics page*/
+body-song {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container-song {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #111;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.heading-song {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.song-image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.song-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+.description-song {
+    font-size: 1.1rem;
+    text-align: justify;
+    margin-bottom: 30px;
+    color: #ccc;
+}
+
+.lyrics {
+    font-size: 20px;
+    white-space: pre-line;
+    text-align: center;
+    color: #ddd;
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    margin-left: 15px;
+}
+
+.lyrics p {
+    margin: 0;
+    padding: 5px 0;
+}
+.footer-song {
+    color:white;
+    text-align: center;
+}
+
+
+
+
+/*footer for lyrics pages*/
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #8d8d8d;
+}
+
+/*container for the trending songs structure*/
+.trending-songs {
+    color: white;
+    margin: 50px;
+}
+
+
+/*For the text ontop of the banner image*/
+ body-1 {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #f1f1f1;
+}
+
+.banner-image {
+   
+    background: url(worship.jpg) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    overflow: hidden;
+    
+}
+
+.container-banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.banner-image2 {
+   
+    background: url(worship-team-1.jpg) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    overflow: hidden;
+    
+}
+
+.banner-image3 {
+   
+    background: url(what-worship.jpg) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    overflow: hidden;
+    
+}
+
+
+
+.container h1 {
+    margin: 0;
+    font-size: 66px;
+}
+
+.container h1 span {
+    padding: 6px 14px;
+    display: inline-block;
+    
+}
+
+.cen {
+    margin: 20px;
+    display: block;
+    font-size: 70px;
+    margin-bottom: 150px;
+}
+
+
+
+/* style to Navba that holds all links to pages */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+/* BASE STYLES */
+body-2 {
+  background-color: #e8f0f7;
+  font-family: 'Inter', sans-serif;
+  min-height: 5000px;
+  padding-top: 60px;
+
+}
+
+/* NORMAL STYLES */
+.header {
+  background-color: rgb(19, 22, 26);
+  width: 100%;
+  top: 0;
+}
+
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 60px;
+  max-width: 1200px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.logo {
+
+}
+
+.logo__img {
+  height: 60px;
+  display: block;
+    border-radius: 50px;
+    
+}
+
+.nav__list {
+  display: flex;
+  column-gap: 40px;
+}
+
+.nav__item {
+
+}
+
+.nav__link {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 15px;
+  transition: all 0.4s;
+  position: relative;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  color: rgba(255, 255, 255, 1);
+}
+
+.nav__link::after {
+  content: '';
+  height: 2px;
+  width: 100%;
+  background-color: rgb(0, 183, 255);
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  transition: all 0.2s;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.nav__link:hover::after {
+  opacity: 1;
+}
+
+@media (max-width: 650px) {
+  .header__content {
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0;
+  }
+
+  .nav__list {
+    column-gap: 20px;
+  }
+    
+}
+
+/*slider*/
+
+.container {
+    padding: 3.1rem;
+}
+
+.slider-wrapper {
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+
+.slider {
+    display: flex;
+    overflow-x: auto; 
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
+    border: solid 5px #555;
+}
+
+.slider img{
+    flex: 1 0 100%;
+    object-fit: cover;
+}
+
+.slider-nav {
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider-nav a {
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+    background-color: #eaeaea;
+    border: solid 2px #000000;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+    opacity: 1;
+}
+
+/* styles for explanation of what worship is*/
+.explain-1{
+    color: white; 
+    font-family: Arial, sans-serif; 
+    font-weight: bold;   
+    display: inline-block; 
+    padding: 15px 25px; 
+    background-color: #414141; 
+    border-radius: 15px;  
+    border: solid 5px #555;
+    margin-left: 50px;
+}
+
+
+/*style for worship team info*/
+
+.team-info img{
+    max-width: 40rem;
+    margin-left: 50px;
+    border-radius: 0.5rem;
+    border: solid 5px #555;
+    margin-bottom: 50px;
+}
+.explain{
+    color: white; 
+    font-family: Arial, sans-serif; 
+    font-weight: bold;   
+    display: inline-block; 
+    background-color: #414141; 
+    border-radius: 15px;  
+    border: solid 5px #555;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/*why worship is important*/
+
+.explain-2{
+    color: white; 
+    font-family: Arial, sans-serif; 
+    font-weight: bold;   
+    display: inline-block; 
+    background-color: #414141; 
+    border-radius: 15px;  
+    border: solid 5px #555;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.imp-worship img{
+    max-width: 40rem;
+    margin-left: 50px;
+    border-radius: 0.5rem;
+    border: solid 5px #555;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+
+    
+
+  
